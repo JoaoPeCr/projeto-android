@@ -37,13 +37,13 @@ header {
     text-align: center;
     font-family: var(--fonte-padrao);
     min-height: 150px;
-    padding-top: 40px;
+    padding-top: 3em;
 }
 h1 {
     font-weight: normal;
     font-family: var(--fonte-destaque);
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 1.2em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
     font-size: 2em;
 }
@@ -52,23 +52,23 @@ header p {
     font-size: 1.3em;
     color: white;
     max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 0.8em;
+    padding-left: 0.8em;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
 }
 nav {
     text-align: left; 
     background-color: var(--cor05);
-    padding: 10px;
+    padding: 0.8em;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 main a, nav a {
     font-weight: bold;
     color: white;
     text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 0.8em;
+    border-radius: 0.33em;
     transition-duration: 0.2s;
 }
 main a:hover, nav a:hover {
@@ -84,9 +84,9 @@ main {
     border-radius: 0px 0px 10px 10px;
 }
 main p {
-    padding: 15px 10px;
+    padding: 1em 0.8em;
     text-align: left;
-    text-indent: 30px;
+    text-indent: 2em;
     line-height: 2em;
     font-size: 1em;
 }
@@ -105,7 +105,7 @@ article {
     background-color: white;
 }
 h2 {
-    text-indent: 10px;
+    text-indent: 0.8em;
     font-weight: normal;
     font-family: var(--fonte-android);
     color: var(--cor05);
@@ -118,15 +118,15 @@ h3 {
     color: var(--cor04);
     font-size: 1em;
     background-image: linear-gradient(to right, var(--cor01), transparent);
-    text-indent: 8px;
+    text-indent: 0.5em;
 }
 strong {
-    border-radius: 5px;
+    border-radius: 0.33em;
 }
 div.video {
     background-color: var(--cor04);
     margin: 0px -0px 25px -0px;
-    padding: 5px;
+    padding: 0.33em;
     padding-bottom: 58%;
     position: relative;
 }
@@ -160,7 +160,7 @@ footer {
     background-color: var(--cor06);
     color: white;
     font-size: 0.8em;
-    padding: 5px;
+    padding: 0.33em;
 }
 footer a {
     font-weight: bold;
