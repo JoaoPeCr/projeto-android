@@ -85,7 +85,7 @@ main {
 }
 main p {
     padding: 15px 10px 0px 10px;
-    text-align: justify;
+    text-align: left;
     text-indent: 30px;
     line-height: 2em;
     font-size: 1em;
